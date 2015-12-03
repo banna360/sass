@@ -1,0 +1,22 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.banna, .child {
+  background: red;
+  border-radius: 4px; }
+  .banna ul, .child ul {
+    padding: 10px;
+    background-color: #000000; }
+    .banna ul li, .child ul li {
+      border-bottom: 1px solid red;
+      list-style: none; }
+
+.child {
+  background-color: yellow; }
+  .child ul {
+    padding: 30px;
+    background-color: #cccccc;
+    border-bottom: 2px solid #fefefe; }
+
+/*# sourceMappingURL=style.css.map */

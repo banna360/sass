@@ -1,0 +1,37 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$colors:red;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+.banna {
+	background: $colors;
+	border-radius: 4px;
+
+	ul {
+
+		padding: 10px;
+		background-color: #000000;
+
+		li {
+
+			border-bottom: 1px solid red;
+			list-style: none;
+		}
+	}
+
+}
+
+.child {
+
+	@extend .banna;
+	background-color: yellow;
+	ul {
+
+		padding: 30px;
+		background-color: #cccccc;
+		border-bottom: 2px solid #fefefe;
+	}
+}
