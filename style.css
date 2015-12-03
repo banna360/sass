@@ -17,6 +17,7 @@ body {
   .child ul {
     padding: 30px;
     background-color: #cccccc;
-    border-bottom: 2px solid #fefefe; }
+    border-bottom: 2px solid #fefefe;
+    float: left; }
 
 /*# sourceMappingURL=style.css.map */
